@@ -1,0 +1,110 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#8F7F62, #494221);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 30%;
+    border: 6px solid #FCFCE9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #A9994C;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #A9994C;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/happy.gif");
+}
+
+#gift-img-hug:hover {
+    background-image: url("https://media.giphy.com/media/VbawWIGNtKYwOFXF7U/giphy.gif");
+}
+
+#gift-img-unbroken:hover {
+    background-image: url("https://media.giphy.com/media/zx5OvWVUUe5YTni1FR/giphy.gif");
+}
+
+
+#gift-img-help:hover {
+    background-image: url("https://media.giphy.com/media/PlayjhCco9jHBYrd9w/giphy.gif");
+}
+
+#gift-img-badass:hover {
+    background-image: url("images/badass.gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/cheers.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
